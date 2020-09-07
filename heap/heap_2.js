@@ -61,6 +61,8 @@ function solution(jobs) {
 
 }
 
+
+//test
 console.log(solution([
     [0, 3],
     [2, 6],
