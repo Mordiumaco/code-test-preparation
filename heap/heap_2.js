@@ -48,7 +48,6 @@ function solution(jobs) {
 
             // 2.3 queue에서 해당 job 삭제
             queue.splice(minIndex, 1)
-
         }
 
 
@@ -60,6 +59,7 @@ function solution(jobs) {
     return Math.floor(answer / total)
 
 }
+
 
 
 console.log(solution([
